@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1ac774"
+    tools:context=".MainActivity">
+    <com.example.administrator.waterrippledemo.view.WaveButton
+        android:layout_width="wrap_content"
+        android:id="@+id/wave_button"
+        android:background="#1ac774"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        app:fillColor="#00000000"
+        app:strokeColor="#fff"
+        app:waveColor="#fff"
+        app:text="1111111111"
+        app:text1="222222222"
+        app:text2="33333333333">
+    </com.example.administrator.waterrippledemo.view.WaveButton>
+
+
+    <!--<com.example.administrator.waterrippledemo.view.CircleRelativeLayout-->
+        <!--android:layout_width="200dp"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:id="@+id/crlayout"-->
+        <!--android:layout_marginTop="50dp"-->
+        <!--android:layout_height="200dp">-->
+        <!--<TextView-->
+            <!--android:id="@+id/one"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="默认的颜色"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:textColor="#201d1d" />-->
+        <!--<TextView-->
+            <!--android:id="@+id/two"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_above="@id/one"-->
+            <!--android:text="默认的颜色1"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:textColor="#201d1d" />-->
+        <!--<TextView-->
+            <!--android:id="@+id/three"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="默认的颜色"-->
+            <!--android:layout_below="@id/one"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:textColor="#201d1d" />-->
+    <!--</com.example.administrator.waterrippledemo.view.CircleRelativeLayout>-->
+</RelativeLayout>
